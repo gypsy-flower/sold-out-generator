@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>SOLD-OUT Image Generator</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>SOLD-OUT Image Generator</h1>
+      <div class="upload-area-wrapper">
+        <div class="upload-area">
+          <h2>400x400</h2>
+          <form>
+              <input type="file" name="upfile">
+          </form>
+          <div id="drop-zone-400" class="drop-zone" data-size="400">ここに画像をドロップ</div>
+          <div id="errors-400" class="errors"></div>
+        </div>
+        <div class="upload-area">
+          <h2>650x650</h2>
+          <form>
+              <input type="file" name="upfile">
+          </form>
+          <div id="drop-zone-650" class="drop-zone" data-size="650">ここに画像をドロップ</div>
+          <div id="errors-650" class="errors"></div>
+        </div>
+      </div>
+    </div>
+    <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script>window.jQuery || document.write('<script src="scripts/jquery-2.1.4.min.js"><\/script>')</script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

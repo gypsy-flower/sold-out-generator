@@ -1,0 +1,38 @@
+html {
+  font-size: 16px;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+body {
+  font-family: 'Lato', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic ProN', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+}
+
+.wrapper {
+  padding: 20px 40px;
+}
+
+.upload-area-wrapper {
+  display: flex;
+}
+
+.upload-area {
+  flex: 1;
+}
+
+.drop-zone {
+  margin: 20px 20px 20px 0;
+  padding: 80px;
+  border: 2px dashed #ccc;
+  border-radius: 12px;
+  text-align: center;
+  color: #999;
+
+  &.over {
+    border-style: solid;
+    background: #eee;
+  }
+}
